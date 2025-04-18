@@ -17,5 +17,5 @@ Siga los siguientes pasos:
 * Conectarse al codespace ejecutando Ctrl+Shift+P y escribir Connect to Codespace.
 * Para copiar la imagen .ova del host local al repositorio remoto, ejecutamos Ctrl+Shift+P y escribir File: Open Folder...y no posicionamos en el directorio /workspaces/vrnetlab/aoscx/
 * Finalemente, arrastramos la imagen .ova al arbol de directorio en vscode.
-* Desde el directorio remoto ../aoscx descomprimimos la imagen .ova ejecutando tar -xvf ArubaOS-CX_10_07_0004.ova
+* Desde el directorio remoto ../aoscx descomprimimos la imagen .ova ejecutando tar -xvf ArubaOS-CX_10_14_1000.ova
 * Generar el contenedor docker ejecutando make docker-image  

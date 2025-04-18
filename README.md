@@ -3,6 +3,7 @@
 La topología creada tiene por objetivo poveer un entorno controlado para el analisis de seguridad del protocolo IPv6.
 
 # Requisitos previos
+---
 La imagen utilizada del switch ArubaOS-CX se provee como una VM basada en QEMU y requiere del proyecto vrnetlab para ejecutar la VM dentro de un contenedor docker, en pocas palabras se trata de
 "una VM disfrazada de contenedor"
 Siga los siguientes pasos:
@@ -18,4 +19,9 @@ Siga los siguientes pasos:
 * Para copiar la imagen .ova del host local al repositorio remoto, ejecutamos Ctrl+Shift+P y escribir File: Open Folder...y no posicionamos en el directorio /workspaces/vrnetlab/aoscx/
 * Finalemente, arrastramos la imagen .ova al arbol de directorio en vscode.
 * Desde el directorio remoto ../aoscx descomprimimos la imagen .ova ejecutando tar -xvf ArubaOS-CX_10_14_1000.ova
-* Generar el contenedor docker ejecutando make docker-image  
+* Generar el contenedor docker ejecutando make docker-image
+  
+# Ejecución de topología
+---
+Desde el directorio /workspaces/icmpv6filter/ ejecutar clab deploy -t icmpv6.yml 
+

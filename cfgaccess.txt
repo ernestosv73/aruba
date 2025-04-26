@@ -11,6 +11,7 @@ vlan trunk allowed 20
 no shutdown
 exit
 ipv6 route 2001:db8::/64 2001:db8:20::1
+dhcpv6-relay
 interface 1/1/2-1/1/5
 no routing
 vlan access 20

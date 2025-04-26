@@ -7,7 +7,7 @@ mgmt:
 topology:
   nodes:
   
-    arubaacore:
+    arubacore:
       kind: aruba_aoscx 
       image: vrnetlab/aruba_arubaos-cx:20240731173624
       startup-config: cfgcore.txt

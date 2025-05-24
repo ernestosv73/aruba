@@ -25,3 +25,8 @@ Siga los siguientes pasos:
 ---
 Desde el directorio /workspaces/icmpv6filter/ ejecutar clab deploy -t icmpv6.yml 
 
+# Actualizar topología en Codespaces
+---
+Para actualizar en codespaces los cambios en la configuración de la topolgía del repositorio, ejecutar en la terminal 
+de codespaces `git pull origin main` 
+

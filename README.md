@@ -23,7 +23,7 @@ Siga los siguientes pasos:
   
 # Ejecución de topología
 ---
-Desde el directorio /workspaces/icmpv6filter/ ejecutar clab deploy -t ipv6.yml 
+Desde el directorio /workspaces/ipv6sec/ ejecutar clab deploy -t ipv6.yml 
 
 # Actualizar topología en Codespaces
 ---

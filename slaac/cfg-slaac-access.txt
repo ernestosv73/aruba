@@ -1,0 +1,18 @@
+conf t
+interface 1/1/1
+vlan 20
+shutdown
+no shutdown
+exit
+interface 1/1/1
+no routing
+vlan trunk allowed 20
+shutdown
+no shutdown
+exit
+interface 1/1/2-1/1/5
+no routing
+vlan access 20
+shutdown
+no shutdown
+exit
